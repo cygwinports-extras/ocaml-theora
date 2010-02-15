@@ -4,19 +4,20 @@ This package contains an O'Caml interface for the Theora Video
 Compression Codec Library.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libogg0-1.1.3-1
-  libtheora0-1.0-1
-  ocaml-3.10.2-1
-  ocaml-ogg-0.3.0-1
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
+  libogg0-1.1.4-1
+  libtheora0-1.1.1-1
+  ocaml-3.11.2-1
+  ocaml-ogg-0.3.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  ocaml-findlib-1.2.2-1
+  ocaml-findlib-1.2.5-1
 
 Canonical website:
   http://savonet.sourceforge.net/wiki/OCamlLibs
@@ -27,40 +28,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ocaml-theora-0.1.0-X-src.tar.bz2
+  unpack ocaml-theora-0.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ocaml-theora-0.1.0-X.cygport all
+  cygport ./ocaml-theora-0.1.2-X.cygport all
 
 This will create:
-  /usr/src/ocaml-theora-0.1.0-X-src.tar.bz2
-  /usr/src/ocaml-theora-0.1.0-X.tar.bz2
+  /usr/src/ocaml-theora-0.1.2-X-src.tar.bz2
+  /usr/src/ocaml-theora-0.1.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ocaml/3.10/theora/META
-  /usr/lib/ocaml/3.10/theora/libtheora_stubs.a
-  /usr/lib/ocaml/3.10/theora/theora.a
-  /usr/lib/ocaml/3.10/theora/theora.cma
-  /usr/lib/ocaml/3.10/theora/theora.cmi
-  /usr/lib/ocaml/3.10/theora/theora.cmx
-  /usr/lib/ocaml/3.10/theora/theora.cmxa
-  /usr/lib/ocaml/3.10/theora/theora.mli
-  /usr/lib/ocaml/3.10/stublibs/dlltheora_stubs.so
-  /usr/lib/ocaml/3.10/stublibs/dlltheora_stubs.so.owner
-  /usr/share/doc/ocaml-theora-0.1.0/COPYING
-  /usr/share/doc/ocaml-theora-0.1.0/Changes
-  /usr/share/doc/ocaml-theora-0.1.0/README
-
-------------------
-
 Port Notes:
 
------ version 0.1.0-1 -----
-Initial release for Cygwin.
+----- version 0.1.2-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
