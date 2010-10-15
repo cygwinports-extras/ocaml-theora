@@ -4,20 +4,21 @@ This package contains an O'Caml interface for the Theora Video
 Compression Codec Library.
 
 Runtime requirements:
-  cygwin-1.7.1-1
-  libgcc1-4.3.4-3
-  libogg0-1.1.4-1
-  libtheora0-1.1.1-1
-  ocaml-3.11.2-1
-  ocaml-ogg-0.3.1-1
+  cygwin-1.7.7-1
+  libogg0-1.2.0-1
+  libtheoradec1-1.1.1-2
+  libtheoraenc1-1.1.1-2
+  ocaml-base-3.12.0-1
+  ocaml-ogg-0.4.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-2.19.51-1
-  cygport-0.9.80-1
-  gcc4-core-4.3.4-3
+  binutils-2.20.51-2
+  cygport-0.10.0-1
+  flexdll-0.25-1
+  gcc4-core-4.5.0-1
   make-3.81-2
-  ocaml-findlib-1.2.5-1
+  ocaml-findlib-1.2.6-1
 
 Canonical website:
   http://savonet.sourceforge.net/

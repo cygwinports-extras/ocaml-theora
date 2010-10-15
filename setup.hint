@@ -1,5 +1,5 @@
 category: OCaml Video
-requires: libgcc1 libogg0 libtheora0 libtheora-devel ocaml ocaml-ogg
+requires: libogg0 libtheoradec1 libtheoraenc1 libtheora-devel ocaml-base ocaml-ogg
 sdesc: "OCaml theora bindings"
 ldesc: "This package contains an O'Caml interface for the Theora Video 
 Compression Codec Library."
