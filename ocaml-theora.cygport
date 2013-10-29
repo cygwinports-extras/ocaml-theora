@@ -1,0 +1,18 @@
+inherit ocaml
+
+NAME="ocaml-theora"
+VERSION=0.3.0
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="OCaml theora bindings"
+DESCRIPTION="This package contains an O'Caml interface for the Theora Video
+Compression Codec Library."
+HOMEPAGE="http://savonet.sourceforge.net/"
+SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf
+	cygmake -j1
+}
