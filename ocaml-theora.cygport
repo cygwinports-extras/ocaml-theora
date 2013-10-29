@@ -2,7 +2,7 @@ inherit ocaml
 
 NAME="ocaml-theora"
 VERSION=0.3.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="OCaml theora bindings"
 DESCRIPTION="This package contains an O'Caml interface for the Theora Video
